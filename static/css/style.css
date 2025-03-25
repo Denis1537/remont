@@ -1,0 +1,75 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('//fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url('//fonts/Roboto-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('//fonts/Roboto-Light.ttf');
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Robotobold;
+}
+p, a { 
+    font-family:Roboto;
+}
+label{
+    font-family: Robotolight;
+}
+.form-text {
+    font-family: RobotoItalic;
+}
+.bg-body-login{
+    background-color: #E0E1E9;
+}
+.button-login{
+    background-color: #10096b;
+    color: white;
+}
+.border-login{
+    border-color: #10096b;
+}
+/* Панель Администратора */
+.bg-header{
+padding: 24px;
+margin: 0;
+background-color: #10096b;
+color: white;
+font-size: 28pt;
+font-family: Robotolight;
+}
+.b-radius{
+    border-radius:80% ;
+}
+.bg-header-manager{
+padding: 24px;
+margin: 0;
+background-color: green;
+color: white;
+font-size: 28pt;
+font-family: Robotolight;
+}
+.border-manager{
+    border-color: green;
+}
+.border-button{
+    background-color: red;
+    color: white;
+    border-radius: 60%;
+}
