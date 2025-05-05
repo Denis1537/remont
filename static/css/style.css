@@ -1,33 +1,47 @@
-@font-face{
+/* Подключение шрифтов */
+@font-face {
     font-family: 'Roboto';
-    src: url('../fonts/Roboto-Black.ttf');
+    src: url('../fonts/Roboto.ttf');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'RobotoBold';
-    src: url('//fonts/Roboto-Bold.ttf');
+    font-family: 'Robotobold';
+    src: url('../fonts/Robotobold.ttf');
+    
 }
 @font-face {
     font-family: 'RobotoItalic';
-    src: url('//fonts/Roboto-Italic.ttf');
+    src: url('../fonts/Robotoitalic.ttf');
     font-weight: normal;
     font-style: italic;
 }
+
 @font-face {
-    font-family: 'RobotoLight';
-    src: url('//fonts/Roboto-Light.ttf');
+    font-family: 'Robotolight';
+    src: url('../fonts/Robotolight.ttf');
 }
-a {
+
+a > btn {
     text-decoration: none;
     color: white;
 }
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 
 h1,h2,h3,h4,h5,h6{
+
     font-family: Robotobold;
+
 }
-p, a { 
-    font-family:Roboto;
+
+p, a{
+
+    font-family: Roboto;
+
 }
 label{
     font-family: Robotolight;
@@ -35,41 +49,81 @@ label{
 .form-text {
     font-family: RobotoItalic;
 }
+h1{
+     text-decoration: none;
+}
+.bg-c{
+    background-color: bisque;
+    /* margin: 5px; */
+}
 .bg-body-login{
-    background-color: #E0E1E9;
+
+    background-color:#E0E1E9 ;
 }
 .button-login{
-    background-color: #10096b;
+
+    background-color: #10096B;
     color: white;
 }
+.button-login:hover{
+
+    background-color: #39347a;
+    color: white;
+}
+
 .border-login{
-    border-color: #10096b;
-}
-/* Панель Администратора */
-.bg-header{
-padding: 24px;
-margin: 0;
-background-color: #10096b;
-color: white;
-font-size: 28pt;
-font-family: Robotolight;
-}
-.b-radius{
-    border-radius:80% ;
-}
-.bg-header-manager{
-padding: 24px;
-margin: 0;
-background-color: green;
-color: white;
-font-size: 28pt;
-font-family: Robotolight;
+
+    border-color: #10096B;
 }
 .border-manager{
-    border-color: green;
+    border-color: #007226;
 }
-.border-button{
-    background-color: red;
+.button-manager{
+    background-color: #007226;
     color: white;
-    border-radius: 60%;
+    border-color:#007226 ;
 }
+.button-manager:hover{
+    background-color: #0de455;
+}
+/* Панель Администратор */
+
+/* Для шапки окна*/
+.bg-header-admin {
+    padding: 24px;
+    background-color: #10096B;
+    color: white;
+    font-size: 28pt;
+    font-family: Robotolight;
+}
+.bg-header-manager {
+    padding: 24px;
+    background-color: #007226;
+    color: white;
+    font-size: 28pt;
+    font-family: Robotolight;
+}
+
+.height-200{
+    height: 200px;
+}
+/* АНАЛИТИКА */
+.bg-header-analitics{
+    padding: 24px;
+    background-color: #B60000;
+    color: white;
+    font-size: 28pt;
+    font-family: Robotolight;
+}
+.img img{
+    width:240px;
+    height: 240px;
+}
+.col h1{
+    text-align: center;
+}
+.container-admin{
+    background-color: gray
+}
+
+
